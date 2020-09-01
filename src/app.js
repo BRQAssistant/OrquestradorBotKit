@@ -23,7 +23,7 @@ module.exports = function(app) {
   //   console.log('Slack bot is live');
   // }
   // if (process.env.USE_FACEBOOK) {
-  //   var Facebook = require('./bot-facebook');
+  //   var Facebook = require('./bot-facebook')
   //   Facebook.controller.middleware.receive.use(middleware.receive);
   //   Facebook.controller.createWebhookEndpoints(app, Facebook.bot);
   //   console.log('Facebook bot is live');

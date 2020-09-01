@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run lint && mocha 'test/**/test*' --exit",
     "lint": "eslint src/*.js",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test",
+    "start": "node /src/server.js"
   },
   "repository": {
     "type": "git",
