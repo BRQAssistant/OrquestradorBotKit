@@ -7,7 +7,7 @@
     "test": "npm run lint && mocha 'test/**/test*' --exit",
     "lint": "eslint src/*.js",
     "prepublishOnly": "npm run test",
-    "start": "node /src/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
