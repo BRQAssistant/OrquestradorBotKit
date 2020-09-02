@@ -1,6 +1,6 @@
 const Botkit = require('botkit');
 
-const middleware = require('../src/botkit-middleware-dialogflow')({
+const middleware = require('../app/botkit-middleware-dialogflow')({
   keyFilename: '/Users/vitormateus/Documents/BotKitDialogFlowExemple/botkit-middleware-dialogflow/src/chatbotbrq-9245e14889ef.json',
 });
 

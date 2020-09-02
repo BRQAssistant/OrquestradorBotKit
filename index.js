@@ -1,1 +1,1 @@
-module.exports = require('./src/botkit-middleware-dialogflow');
+module.exports = require('./app/botkit-middleware-dialogflow');
